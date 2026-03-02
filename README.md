@@ -1,8 +1,9 @@
 <div align="center">
 
-# 👋 Hi, I'm Jinshuo(Jensen) Li
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2C5F8A&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Jinshuo(Jensen)+Li;Robotics+%2B+Computer+Science;Seeking+Research+in+AI+%26+Robotics;Welcome+to+my+GitHub!)](https://git.io/typing-svg)
 
 🌐 **[JinshuoLi-Jensen.github.io](https://JinshuoLi-Jensen.github.io)**
+
 
 </div>
 
