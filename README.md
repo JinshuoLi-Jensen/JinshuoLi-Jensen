@@ -12,7 +12,7 @@
 
 🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
 
-🏆 Provincial First Prize (Shandong) · ICC Innovation Capability Competition · Physics
+🏆 Provincial First Prize (High School) · ICC Innovation Capability Competition · Physics
 
 🤖 Member of OUC Underwater Robotics Club
 
@@ -40,10 +40,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 
 ---
 
@@ -55,9 +52,10 @@
 
 ### 📫 How to Reach Me
 
-- 📧 **Email**: jl4091@hw.ac.uk
+- 📧 **Academic Email**: jl4091@hw.ac.uk(preferred)
+- 📧 **Personal Email**: jlshuo@126.com 
 - 🌐 **Website**: [JinshuoLi-Jensen.github.io](https://JinshuoLi-Jensen.github.io)
-- 🔗 **LinkedIn**: [Jinshuo(Jensen) Li](https://www.linkedin.com/in/jinshuojensen-li-441361394)
+- 🔗 **LinkedIn**: [Jinshuo(Jensen) Li](https://www.linkedin.com/in/jinshuo-jensen-li-441361394?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ%2BfwBYS8R5aBVJwMN9%2BjAQ%3D%3D).
 
 ---
 
