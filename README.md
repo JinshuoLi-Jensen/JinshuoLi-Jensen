@@ -13,10 +13,11 @@
 
 🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
 
+🤖 Member of OUC Underwater Robotics Club 
+
 🏆 Provincial First Prize (High School) · ICC Innovation Capability Competition · Physics
 
-🤖 Member of OUC Underwater Robotics Club
-
+🎤 Member of the Championship Team in the Shandong Province Debate Competition · High School
 ---
 
 ### 🏅 Recent Activities
