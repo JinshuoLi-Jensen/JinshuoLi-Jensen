@@ -11,6 +11,8 @@
 
 🎓 Undergraduate at **Heriot-Watt University** & **Ocean University of China**, double majoring in **Robotics** and **Computer Science**
 
+🔬 Visiting Student | Peking University (PKU) Shenzhen EMBL Lab
+
 🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
 
 🤖 Member of OUC Underwater Robotics Club 
