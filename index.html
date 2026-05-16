@@ -43,7 +43,7 @@
         .news-item{display:flex;align-items:flex-start;gap:12px;padding:12px 16px;border-radius:var(--radius);background:#fff;border:1px solid var(--border);transition:all .2s}
         .news-item:hover{box-shadow:var(--shadow-sm);border-color:var(--primary-light)}
         .news-badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:600;color:#fff;white-space:nowrap;flex-shrink:0;margin-top:2px}
-        .news-badge.new{background:var(--accent)}.news-badge.ongoing{background:#e67e22}.news-badge.award{background:#27ae60}
+        .news-badge.new{background:var(--accent)}.news-badge.ongoing{background:#e67e22}.news-badge.award{background:#27ae60}.news-badge.upcoming{background:#8e44ad}
         .news-text{font-size:.95rem;line-height:1.6}
         .news-date{color:var(--text-muted);font-size:.85rem;font-weight:500;font-family:var(--font-mono)}
         .entry-list{display:flex;flex-direction:column;gap:24px}
@@ -52,6 +52,11 @@
         .entry-content h3{font-size:1.05rem;font-weight:600;color:var(--text);margin-bottom:4px}
         .entry-content h3 .date{font-weight:400;color:var(--text-muted);font-size:.9rem}
         .entry-detail{font-size:.92rem;color:var(--text-light);line-height:1.7}
+        .entry-detail ul{list-style:none;padding:0;margin:4px 0 0 0}
+        .entry-detail ul li{position:relative;padding-left:16px;margin-bottom:4px}
+        .entry-detail ul li::before{content:"•";position:absolute;left:0;color:var(--primary-light);font-weight:700}
+        .pub-title{font-weight:600;color:var(--text)}
+        .pub-venue{font-style:italic;color:var(--text-muted);font-size:.88rem}
         .activity-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:16px}
         .activity-card{padding:18px 20px;border-radius:var(--radius);background:#fff;border:1px solid var(--border);transition:all .25s}
         .activity-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}
@@ -90,6 +95,7 @@
         <div class="nav-links">
             <a href="#">Home</a>
             <a href="#news">News</a>
+            <a href="#research">Research</a>
             <a href="#edu">Education</a>
             <a href="#activities">Activities</a>
             <a href="#courses">Courses</a>
@@ -115,7 +121,7 @@
             <div class="hero-meta">
                 <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> jl4091@hw.ac.uk</span>
                 <span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> United Kingdom</span>
-                <span style="font-size:.82rem">Last update: 2026.03</span>
+                <span style="font-size:.82rem">Last update: 2026.05</span>
             </div>
             <div class="social-links">
                 <a href="mailto:jl4091@hw.ac.uk">📧 Email</a>
@@ -126,21 +132,22 @@
     </div>
 </header>
 
+<!-- News and Highlights -->
 <div class="section-alt">
     <div class="section" id="news">
         <h2 class="section-title fade-in">📰 News and Highlights</h2>
         <div class="news-list">
             <div class="news-item fade-in">
-                <span class="news-badge ongoing">ONGOING</span>
-                <div class="news-text"><span class="news-date">[2026/03]</span> Visiting Student | Peking University (PKU) Shenzhen EMBL Lab <strong>My primary work involves designing and developing an intelligent **AI Agent** tailored for **bioinformatics software pipelines**</strong>.</div>
+                <span class="news-badge upcoming">UPCOMING</span>
+                <div class="news-text"><span class="news-date">[2026/07]</span> Selected for the <strong><a href="https://aimm.szbl.ac.cn/" target="_blank">AI for Molecular Medicine (AIMM) Summer Research Program</a></strong> at <strong>Shenzhen Bay Laboratory (SZBL)</strong>. Fully funded (accommodation &amp; meals covered).</div>
             </div>
             <div class="news-item fade-in">
                 <span class="news-badge ongoing">ONGOING</span>
-                <div class="news-text"><span class="news-date">[2026/03]</span> Participating in the RUC "Legal Rules Computer Expression Competition" as a core member, responsible for the <strong>AI Agent track</strong>.</div>
+                <div class="news-text"><span class="news-date">[2026/03]</span> Visiting Student at <strong>Peking University Shenzhen, EMBL Lab</strong>. Building AI agents for bioinformatics software pipelines and co-developing the <strong>OpenAqua</strong> multi-agent framework.</div>
             </div>
             <div class="news-item fade-in">
-                <span class="news-badge ongoing">ONGOING</span>
-                <div class="news-text"><span class="news-date">[2026/02]</span> Led a team as <strong>captain</strong> in the 2026 MCM/ICM (Mathematical Contest in Modeling), working on <strong>Problem C</strong>. Results pending.</div>
+                <span class="news-badge award">AWARD</span>
+                <div class="news-text"><span class="news-date">[2026/03]</span> <strong>Ranked 14th / 203 teams</strong> (829 teams, 1,652 participants overall) in the RUC Legal Rules Computer Expression Competition — <strong>AI Agent Track</strong>. Solo-developed the legal parsing agent.</div>
             </div>
             <div class="news-item fade-in">
                 <span class="news-badge new">NEW</span>
@@ -148,7 +155,7 @@
             </div>
             <div class="news-item fade-in">
                 <span class="news-badge award">AWARD</span>
-                <div class="news-text"><span class="news-date">[2023]</span> Won the <strong>Provincial First Prize (High School)</strong> in Physics at the ICC Innovation Capability Competition for high School Students.</div>
+                <div class="news-text"><span class="news-date">[2023]</span> Won the <strong>Provincial First Prize (High School)</strong> in Physics at the ICC Innovation Capability Competition for High School Students.</div>
             </div>
             <div class="news-item fade-in">
                 <span class="news-badge award">AWARD</span>
@@ -158,106 +165,135 @@
     </div>
 </div>
 
-<div class="section" id="edu">
-    <h2 class="section-title fade-in">🎓 Education</h2>
+<!-- Research Experience -->
+<div class="section" id="research">
+    <h2 class="section-title fade-in">🔬 Research Experience</h2>
     <div class="entry-list">
         <div class="entry fade-in">
-            <img class="entry-logo" src="img/hwu.png" alt="HWU"> 
+            <img class="entry-logo" src="img/pku.png" alt="PKU">
             <div class="entry-content">
-                <h3><a href="https://www.hw.ac.uk/" target="_blank">Heriot-Watt University</a> <span class="date">Sep 2025 – Jun 2029</span></h3>
-                <div class="entry-detail">• Bachelor of Engineering (BEng) in <strong>Robotics</strong></div>
-            </div>
-        </div>
-        <div class="entry fade-in">
-            <img class="entry-logo" src="img/ouc.png" alt="OUC">
-            <div class="entry-content">
-                <h3><a href="https://www.ouc.edu.cn/" target="_blank">Ocean University of China</a> <span class="date">Sep 2025 – Jun 2029</span></h3>
-                <div class="entry-detail">• Bachelor of Engineering (BEng) in <strong>Computer Science</strong></div>
-            </div>
-        </div>
-        <div class="entry fade-in">
-            <img class="entry-logo" src="img/sdsy.webp" alt="SDSY">
-            <div class="entry-content">
-                <h3>Shandong Experimental High School <span class="date">Sep 2022 – Jun 2025</span></h3>
-                <div class="entry-detail">• High School Diploma</div>
+                <h3><a href="https://www.pku.edu.cn/" target="_blank">Peking University Shenzhen, EMBL Lab</a> <span class="date">Mar 2026 – Present</span></h3>
+                <div class="entry-detail">
+                    <p style="margin-bottom:6px"><strong>Visiting Student</strong></p>
+                    <ul>
+                        <li><strong>Agent Framework Development:</strong> Reproduced the open-source agentic framework <em>Eubiota</em> to build a foundational understanding of LLM tool-use and bioinformatics software pipelines.</li>
+                        <li><strong>Data Engineering &amp; RAG Construction:</strong> Co-developed the <em>OpenAqua</em> framework by designing its data pipeline — crawled, cleaned, and structured unit-level and case-level water treatment data from EPA databases to build the RAG knowledge base.</li>
+                        <li><strong>Technical Visualization:</strong> Designed and rendered core technical architecture diagrams and data flowcharts for the manuscript.</li>
+                    </ul>
+                </div>
+                <div class="entry-detail" style="margin-top:12px">
+                    <p class="pub-title">📄 OpenAqua: A Multi-Agent Retrieval-Augmented Framework for Water Treatment Train Design with Critic-Based Refinement</p>
+                    <p class="pub-venue">Authors et al. (4th author) · Under review at <em>Water Research</em> (CAS Q1 / JCR Q1 / IF = 12.4)</p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Education -->
 <div class="section-alt">
-    <div class="section" id="activities">
-        <h2 class="section-title fade-in">🏆 Activities &amp; Awards</h2>
-        <div class="activity-grid">
-            <div class="activity-card fade-in">
-                <span class="activity-tag tag-competition">COMPETITION</span>
-                <h3>2026 MCM/ICM Mathematical Contest in Modeling</h3>
-                <p>Team Captain • Problem C • Results pending</p>
+    <div class="section" id="edu">
+        <h2 class="section-title fade-in">🎓 Education</h2>
+        <div class="entry-list">
+            <div class="entry fade-in">
+                <img class="entry-logo" src="img/hwu.png" alt="HWU"> 
+                <div class="entry-content">
+                    <h3><a href="https://www.hw.ac.uk/" target="_blank">Heriot-Watt University</a> <span class="date">Sep 2025 – Jun 2029</span></h3>
+                    <div class="entry-detail">• Bachelor of Engineering (BEng) in <strong>Robotics</strong></div>
+                </div>
             </div>
-            <div class="activity-card fade-in">
-                <span class="activity-tag tag-competition">COMPETITION</span>
-                <h3>RUC Legal Rules Computer Expression Competition</h3>
-                <p>Core Member • AI Agent Track • In progress</p>
+            <div class="entry fade-in">
+                <img class="entry-logo" src="img/ouc.png" alt="OUC">
+                <div class="entry-content">
+                    <h3><a href="https://www.ouc.edu.cn/" target="_blank">Ocean University of China</a> <span class="date">Sep 2025 – Jun 2029</span></h3>
+                    <div class="entry-detail">• Bachelor of Engineering (BEng) in <strong>Computer Science</strong></div>
+                </div>
             </div>
-            <div class="activity-card fade-in">
-                <span class="activity-tag tag-award">AWARD</span>
-                <h3>ICC Innovation Capability Competition</h3>
-                <p>Provincial First Prize (High School) • Physics Category</p>
-            </div>
-            <div class="activity-card fade-in">
-                <span class="activity-tag tag-club">CLUB</span>
-                <h3>OUC Underwater Robotics Club</h3>
-                <p>Club Member • Ocean University of China</p>
+            <div class="entry fade-in">
+                <img class="entry-logo" src="img/sdsy.webp" alt="SDSY">
+                <div class="entry-content">
+                    <h3>Shandong Experimental High School <span class="date">Sep 2022 – Jun 2025</span></h3>
+                    <div class="entry-detail">• High School Diploma</div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="section" id="courses">
-    <h2 class="section-title fade-in">📚 Current Courses</h2>
-    <p style="color:var(--text-light);margin-bottom:20px;font-size:.95rem" class="fade-in">Courses I'm currently taking or have completed.</p>
-    <div class="course-grid">
-        <div class="course-card fade-in">
-            <div class="course-code">Stanford CS224N</div>
-            <div class="course-name">Deep Learning for NLP</div>
-            <div class="course-meta">Learning</div>
+<!-- Activities & Awards -->
+<div class="section" id="activities">
+    <h2 class="section-title fade-in">🏆 Activities &amp; Awards</h2>
+    <div class="activity-grid">
+        <div class="activity-card fade-in">
+            <span class="activity-tag tag-award">AWARD</span>
+            <h3>RUC Legal Rules Computer Expression Competition</h3>
+            <p>Solo Developer · AI Agent Track · <strong>Ranked 14th / 203 teams</strong> (829 teams, 1,652 participants overall) · Prize Winner</p>
         </div>
-        <div class="course-card fade-in">
-            <div class="course-code">Andrew Ng's courses</div>
-            <div class="course-name">Machine Learning Specialization</div>
-            <div class="course-meta">Learning</div>
+        <div class="activity-card fade-in">
+            <span class="activity-tag tag-competition">COMPETITION</span>
+            <h3>Locus AI: Export Control Compliance Screening System</h3>
+            <p>Team Captain · Tencent Kaiwu AI Challenge · In progress</p>
         </div>
-        <div class="course-card fade-in">
-            <div class="course-code">Stanford CS223A</div>
-            <div class="course-name">Introduction to Robotics</div>
-            <div class="course-meta">fall semester 2025</div>
+        <div class="activity-card fade-in">
+            <span class="activity-tag tag-award">AWARD</span>
+            <h3>ICC Innovation Capability Competition</h3>
+            <p>Provincial First Prize (High School) • Physics Category</p>
         </div>
-        <div class="course-card fade-in">
-            <div class="course-code">Major Course</div>
-            <div class="course-name">Calculus I</div>
-            <div class="course-meta">fall semester 2025 • 98.5/100 • OUC</div>
+        <div class="activity-card fade-in">
+            <span class="activity-tag tag-club">CLUB</span>
+            <h3>OUC Underwater Robotics Club</h3>
+            <p>Club Member • Ocean University of China</p>
         </div>
     </div>
 </div>
 
+<!-- Courses -->
 <div class="section-alt">
-    <div class="section" id="skills">
-        <h2 class="section-title fade-in">🛠️ Skills &amp; Languages</h2>
-        <h3 style="font-size:1rem;color:var(--text-light);margin-bottom:14px;font-weight:500" class="fade-in">Technical Skills</h3>
-        <div class="skills-section fade-in" style="margin-bottom:28px">
-            <span class="skill-badge">🤖 Robotics(HWU)</span>
-            <span class="skill-badge">💻 Software Development(OUC&HWU,learning)</span>
-            <span class="skill-badge">🐍 Python&PyTorch(learning)</span>
-            <span class="skill-badge">☕ Java</span>
-            <span class="skill-badge">🔧 C/C++</span>
-            <span class="skill-badge">🔀 Git</span>
+    <div class="section" id="courses">
+        <h2 class="section-title fade-in">📚 Current Courses</h2>
+        <p style="color:var(--text-light);margin-bottom:20px;font-size:.95rem" class="fade-in">Courses I'm currently taking or have completed.</p>
+        <div class="course-grid">
+            <div class="course-card fade-in">
+                <div class="course-code">Stanford CS224N</div>
+                <div class="course-name">Deep Learning for NLP</div>
+                <div class="course-meta">Learning</div>
+            </div>
+            <div class="course-card fade-in">
+                <div class="course-code">Andrew Ng's courses</div>
+                <div class="course-name">Machine Learning Specialization</div>
+                <div class="course-meta">Learning</div>
+            </div>
+            <div class="course-card fade-in">
+                <div class="course-code">Stanford CS223A</div>
+                <div class="course-name">Introduction to Robotics</div>
+                <div class="course-meta">fall semester 2025</div>
+            </div>
+            <div class="course-card fade-in">
+                <div class="course-code">Major Course</div>
+                <div class="course-name">Calculus I</div>
+                <div class="course-meta">fall semester 2025 • 98.5/100 • OUC</div>
+            </div>
         </div>
-        <h3 style="font-size:1rem;color:var(--text-light);margin-bottom:14px;font-weight:500" class="fade-in">Languages</h3>
-        <div class="skills-section fade-in">
-            <span class="skill-badge">🇨🇳 Chinese — Native</span>
-            <span class="skill-badge">🇬🇧 English — Professional Working</span>
-            <span class="skill-badge">🇯🇵 Japanese — Elementary</span>
-        </div>
+    </div>
+</div>
+
+<!-- Skills -->
+<div class="section" id="skills">
+    <h2 class="section-title fade-in">🛠️ Skills &amp; Languages</h2>
+    <h3 style="font-size:1rem;color:var(--text-light);margin-bottom:14px;font-weight:500" class="fade-in">Technical Skills</h3>
+    <div class="skills-section fade-in" style="margin-bottom:28px">
+        <span class="skill-badge">🤖 Robotics(HWU)</span>
+        <span class="skill-badge">💻 Software Development(OUC&HWU,learning)</span>
+        <span class="skill-badge">🐍 Python&PyTorch(learning)</span>
+        <span class="skill-badge">☕ Java</span>
+        <span class="skill-badge">🔧 C/C++</span>
+        <span class="skill-badge">🔀 Git</span>
+    </div>
+    <h3 style="font-size:1rem;color:var(--text-light);margin-bottom:14px;font-weight:500" class="fade-in">Languages</h3>
+    <div class="skills-section fade-in">
+        <span class="skill-badge">🇨🇳 Chinese — Native</span>
+        <span class="skill-badge">🇬🇧 English — Professional Working</span>
+        <span class="skill-badge">🇯🇵 Japanese — Elementary</span>
     </div>
 </div>
 
