@@ -13,6 +13,8 @@
 
 🔬 Visiting Student | Peking University (PKU) Shenzhen EMBL Lab
 
+🧬 Incoming Summer Research Intern | **Shenzhen Bay Laboratory (SZBL)** · [AI for Molecular Medicine Program](https://aimm.szbl.ac.cn/)
+
 🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
 
 🤖 Member of OUC Underwater Robotics Club 
@@ -25,8 +27,8 @@
 
 ### 🏅 Recent Activities
 
-- 🧮 **2026 MCM/ICM** — Team Captain · Problem C · Results pending
-- ⚖️ **RUC Legal Rules Computer Expression Competition** — Core Member · AI Agent Track · In progress
+- ⚖️ **RUC Legal Rules Computer Expression Competition** — Solo Developer · AI Agent Track · **Ranked 14th / 203 teams** (829 teams, 1,652 participants overall) · Prize Winner
+- 🤖 **Locus AI: Export Control Compliance Screening System** — Team Captain · Tencent Kaiwu AI Challenge · In progress
 
 ---
 
