@@ -12,6 +12,7 @@
 🎓 Undergraduate at **Heriot-Watt University** & **Ocean University of China**, double majoring in **Robotics** and **Computer Science**
 
 🔬 Visiting Student |  **Peking University (Shenzhen) EMBL LAB** · [AI agent for bioinformatics software pipelines](https://embl-pku.github.io/)
+
 🧬 Incoming Summer Research Intern | **Shenzhen Bay Laboratory (SZBL)** · [AI for Molecular Medicine Program](https://aimm.szbl.ac.cn/)
 
 🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
