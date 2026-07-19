@@ -1,73 +1,31 @@
-<div align="center">
+# Jinshuo (Jensen) Li
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2C5F8A&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Jinshuo(Jensen)+Li;Robotics+%2B+Computer+Science;Seeking+Research+in+AI+%26+Robotics;Welcome+to+my+GitHub!)](https://git.io/typing-svg)
+Personal academic homepage: [jinshuoli-jensen.github.io/JinshuoLi-Jensen](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/)
 
-🌐 **[JinshuoLi-Jensen.github.io](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/)**
+I am an undergraduate in a joint double-degree pathway in Computer Science at Ocean University of China and Robotics at Heriot-Watt University. My current research focus is **harness engineering for AI co-scientists**: connecting foundation models and agents with domain knowledge, scientific tools, simulations, and evaluation.
 
+## Selected research
 
-</div>
+- **OpenAqua · PKU Shenzhen EMBL Lab** — Fourth author; under revision at *Water Research*. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
+- **TectonOS · LSlab / KUNLING** — Core research and engineering for geoscience agent workflows, solver integrations, parameter and search spaces, backend systems, and scientific workflow design.
+- **Atmospheric & Industrial Waste-Gas Agent** — Second author; submitted to a KDD 2026 workshop. Contributions: data processing, knowledge-base construction, agent architecture, and all scientific visualizations.
+- **[AIMM Summer Research · Shenzhen Bay Laboratory](https://aimm.szbl.ac.cn/)** — Visiting student in Dr. Yi Yang's lab, Summer 2026.
 
----
+## Selected awards and activities
 
-🎓 Undergraduate at **Heriot-Watt University** & **Ocean University of China**, double majoring in **Robotics** and **Computer Science**
+- **RUC Legal Rules Computer Expression Competition** — Solo Developer · AI Agent Track · Ranked 14th / 203 teams (829 teams, 1,652 participants overall) · Prize Winner.
+- **ICC Innovation Capability Competition** — Provincial First Prize (High School) · Physics Category.
+- **Shandong Province Debate Competition** — Member of the Provincial Championship Team (High School).
+- **OUC Underwater Robotics Club** — Club Member.
 
-🔬 Visiting Student |  **Peking University (Shenzhen) EMBL LAB** · [AI agent for bioinformatics software pipelines](https://embl-pku.github.io/)
+## Toolkit
 
-🧬 Incoming Summer Research Intern | **Shenzhen Bay Laboratory (SZBL)** · [AI for Molecular Medicine Program](https://aimm.szbl.ac.cn/)
+Agent systems and orchestration · RAG and knowledge bases · Data pipelines and curation · Scientific-computing workflows · Solver integration · Technical visualization · Python · C/C++ · Java · Git
 
-🔬 Seeking research opportunities in **AI, Machine Learning, Robotics, and NLP**
+## Contact
 
-🤖 Member of OUC Underwater Robotics Club 
+- Academic email: [jl4091@hw.ac.uk](mailto:jl4091@hw.ac.uk)
+- GitHub: [JinshuoLi-Jensen](https://github.com/JinshuoLi-Jensen)
+- LinkedIn: [Jinshuo (Jensen) Li](https://www.linkedin.com/in/jinshuo-jensen-li-441361394)
 
-🏆 Provincial First Prize (High School) · ICC Innovation Capability Competition · Physics
-
-🎤 Member of the Championship Team in the Shandong Province Debate Competition · High School
-
----
-
-### 🏅 Recent Activities
-
-- ⚖️ **RUC Legal Rules Computer Expression Competition** — Solo Developer · AI Agent Track · **Ranked 14th / 203 teams** (829 teams, 1,652 participants overall) · Prize Winner
-- 🤖 **Locus AI: Export Control Compliance Screening System** — Team Captain · Tencent Kaiwu AI Challenge · In progress
-
----
-
-### 🎓 Education
-
-| Period | University | Degree |
-|--------|-----------|--------|
-| 2025 – 2029 | Heriot-Watt University | BEng Robotics |
-| 2025 – 2029 | Ocean University of China | BEng Computer Science |
-| 2022 – 2025 | Shandong Experimental High School | High School Diploma |
-
----
-
-### 🛠️ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
----
-
-### 🌍 Languages
-
-🇨🇳 Chinese — Native · 🇬🇧 English — Professional Working · 🇯🇵 Japanese — Elementary
-
----
-
-### 📫 How to Reach Me
-
-- 📧 **Academic Email**: jl4091@hw.ac.uk(preferred)
-- 📧 **Personal Email**: jlshuo@126.com 
-- 🌐 **Website**: [JinshuoLi-Jensen.github.io](https://JinshuoLi-Jensen.github.io)
-- 🔗 **LinkedIn**: [Jinshuo(Jensen) Li](https://www.linkedin.com/in/jinshuo-jensen-li-441361394?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ%2BfwBYS8R5aBVJwMN9%2BjAQ%3D%3D).
-
----
-
-<div align="center">
-
-![Visitors](https://komarev.com/ghpvc/?username=JinshuoLi-Jensen&color=blue&style=flat-square)
-
-</div>
+This repository contains the source for the static site and deploys it through GitHub Pages after content review.
