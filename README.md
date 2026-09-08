@@ -2,14 +2,16 @@
 
 Personal academic homepage: [jinshuoli-jensen.github.io/JinshuoLi-Jensen](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/)
 
+[English](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/?lang=en) · [中文](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/?lang=zh)
+
 I am an undergraduate in a joint double-degree pathway in Computer Science at Ocean University of China and Robotics at Heriot-Watt University. My current research focus is **harness engineering for AI co-scientists**: connecting foundation models and agents with domain knowledge, scientific tools, simulations, and evaluation.
 
 ## Selected research
 
-- **OpenAqua · PKU Shenzhen EMBL Lab** — Fourth author; under revision at *Water Research*. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
+- **[OpenAqua](https://doi.org/10.1016/j.watres.2026.126761) · PKU Shenzhen EMBL Lab** — Fourth author; published online in *Water Research*, 28 August 2026, article 126761. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
 - **TectonOS · LSlab / KUNLING** — Core research and engineering for geoscience agent workflows, solver integrations, parameter and search spaces, backend systems, and scientific workflow design.
-- **Atmospheric & Industrial Waste-Gas Agent** — Second author; submitted to a KDD 2026 workshop. Contributions: data processing, knowledge-base construction, agent architecture, and all scientific visualizations.
-- **[AIMM Summer Research · Shenzhen Bay Laboratory](https://aimm.szbl.ac.cn/)** — Visiting student in Dr. Yi Yang's lab, Summer 2026.
+- **[AeroNoxis](https://openreview.net/forum?id=CVjsXfBRg9)** — Second author; KDD 2026 Workshop SciSoc Agents & LLMs · Poster. Contributions: data processing, knowledge-base construction, agent architecture, and all scientific visualizations.
+- **[SMART-SZBL (Summer Internship) · AIMM](https://aimm.szbl.ac.cn/)** — Visiting student in Dr. Yi Yang's lab, July–August 2026. Worked on molecular dynamics simulation model optimization, research visualization, model testing, and a website for online model access.
 
 ## Selected awards and activities
 
@@ -29,3 +31,7 @@ Agent systems and orchestration · RAG and knowledge bases · Data pipelines and
 - LinkedIn: [Jinshuo (Jensen) Li](https://www.linkedin.com/in/jinshuo-jensen-li-441361394)
 
 This repository contains the source for the static site and deploys it through GitHub Pages after content review.
+
+The navigation includes an English/中文 switch. Language choice is stored locally; `?lang=zh#research` and `?lang=en#research` can also link directly to a section in either language. Chinese copy retains Agent, LLM, paper titles, and publication names in English where appropriate.
+
+On phones, the profile becomes a compact header followed by the selected page in one full-width column; Research Focus and Research Toolkit follow the page content. The horizontal section navigation remains visible and scrollable, with a separate language-control row. Desktop retains the B / Research First sidebar layout. Theme styles precede responsive rules in `site.css`; avoid adding later inline desktop rules that can override mobile breakpoints.
