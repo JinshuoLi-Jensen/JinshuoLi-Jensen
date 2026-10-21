@@ -4,12 +4,18 @@ Personal academic homepage: [jinshuoli-jensen.github.io/JinshuoLi-Jensen](https:
 
 [English](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/?lang=en) · [中文](https://jinshuoli-jensen.github.io/JinshuoLi-Jensen/?lang=zh)
 
-I am an undergraduate in a joint double-degree pathway in Computer Science at Ocean University of China and Robotics at Heriot-Watt University. My current research focus is **harness engineering for AI co-scientists**: connecting foundation models and agents with domain knowledge, scientific tools, simulations, and evaluation.
+I am an undergraduate in a joint double-degree pathway in Computer Science at Ocean University of China and Robotics at Heriot-Watt University. My research interests are **Agentic AI and AI for Science**. I work on agent harnesses, tool use, retrieval-augmented generation (RAG), and evaluation, with projects in scientific workflows and legal education.
+
+## Research experience
+
+- **Renmin University of China** — Research Assistant, August 2026–present. Mentors: Yali Peng and Jun Yin. National Governance Big Data & AI Innovation Platform; Law School.
+- **SMART-SZBL · AIMM** — Visiting Student, July–August 2026. PI: Yi Yang.
+- **Peking University · AAIS** — Visiting Student; current PI: Jinren Ni. Visiting student at PKU since March 2026. This start date refers to the PKU appointment, not the date of the group change.
 
 ## Selected research
 
-- **[OpenAqua](https://doi.org/10.1016/j.watres.2026.126761) · PKU Shenzhen EMBL Lab** — Fourth author; published online in *Water Research*, 28 August 2026, article 126761. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
-- **TectonOS · LSlab / KUNLING** — Core research and engineering for geoscience agent workflows, solver integrations, parameter and search spaces, backend systems, and scientific workflow design.
+- **[JuriPulse · Lao K](https://juripulse.cn/)** — Criminal-law teaching assistant developed by the RUC empirical legal research team; internal trial. Contributions: product design and engineering implementation, local BM25 retrieval, source tracing, citation checks, regression testing, and release workflows. Listed as a research system, not a paper.
+- **[OpenAqua](https://doi.org/10.1016/j.watres.2026.126761)** — Fourth author; published online in *Water Research*, 28 August 2026, article 126761. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
 - **[AeroNoxis](https://openreview.net/forum?id=CVjsXfBRg9)** — Second author; KDD 2026 Workshop SciSoc Agents & LLMs · Poster. Contributions: data processing, knowledge-base construction, agent architecture, and all scientific visualizations.
 - **[SMART-SZBL (Summer Internship) · AIMM](https://aimm.szbl.ac.cn/)** — Visiting student in Dr. Yi Yang's lab, July–August 2026. Worked on molecular dynamics simulation model optimization, research visualization, model testing, and a website for online model access.
 
