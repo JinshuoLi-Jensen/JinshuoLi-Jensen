@@ -9,7 +9,7 @@ I am an undergraduate in a joint double-degree pathway in Computer Science at Oc
 ## Research experience
 
 - **Renmin University of China** — Research Assistant, August 2026–present. Mentors: Yali Peng and Jun Yin. National Governance Big Data & AI Innovation Platform; Law School.
-- **SMART-SZBL · AIMM** — Visiting Student, July–August 2026. PI: Yi Yang.
+- **SMART-SZBL · AIMM** — Visiting Student, July–August 2026. PI: [Yi Isaac Yang](https://www.szbl.ac.cn/research/group/Yi-Yang.htm).
 - **Peking University · AAIS** — Visiting Student; current PI: Jinren Ni. Visiting student at PKU since March 2026. This start date refers to the PKU appointment, not the date of the group change.
 
 ## Selected research
@@ -17,7 +17,7 @@ I am an undergraduate in a joint double-degree pathway in Computer Science at Oc
 - **[JuriPulse · Lao K](https://juripulse.cn/)** — Criminal-law teaching assistant developed by the RUC empirical legal research team; internal trial. Contributions: product design and engineering implementation, local BM25 retrieval, source tracing, citation checks, regression testing, and release workflows. Listed as a research system, not a paper.
 - **[OpenAqua](https://doi.org/10.1016/j.watres.2026.126761)** — Fourth author; published online in *Water Research*, 28 August 2026, article 126761. Contributions: EPA data processing and pipeline development, RAG knowledge-base construction, and technical visualizations.
 - **[AeroNoxis](https://openreview.net/forum?id=CVjsXfBRg9)** — Second author; KDD 2026 Workshop SciSoc Agents & LLMs · Poster. Contributions: data processing, knowledge-base construction, agent architecture, and all scientific visualizations.
-- **[SMART-SZBL (Summer Internship) · AIMM](https://aimm.szbl.ac.cn/)** — Visiting student in Dr. Yi Yang's lab, July–August 2026. Worked on molecular dynamics simulation model optimization, research visualization, model testing, and a website for online model access.
+- **[SMART-SZBL (Summer Internship) · AIMM](https://aimm.szbl.ac.cn/)** — Visiting student in [Dr. Yi Isaac Yang](https://www.szbl.ac.cn/research/group/Yi-Yang.htm)'s lab, July–August 2026. Worked on molecular dynamics simulation model optimization, research visualization, model testing, and a website for online model access.
 
 ## Selected awards and activities
 

@@ -210,7 +210,7 @@ function renderSite() {
                         </article>
                         <article class="experience-item">
                             <h3>${t("SMART-SZBL (Summer Internship)", "深圳医学科学院-深圳湾实验室（官方暑研）")} · ${external("https://aimm.szbl.ac.cn/", t("AIMM Summer Research Program", "AIMM 课题组"))}</h3>
-                            <p class="experience-role">${t("Visiting Student · Dr. Yi Yang's Lab", "访问学生 · 杨弈老师课题组")}</p>
+                            <p class="experience-role">${t("Visiting Student · ", "访问学生 · ")}${external("https://www.szbl.ac.cn/research/group/Yi-Yang.htm", t("Dr. Yi Isaac Yang", "杨奕老师"))}${t("'s Lab", "课题组")}</p>
                             <p class="experience-date">${t("July–August 2026", "2026 年 7–8 月")}</p>
                             <p class="experience-detail">${t("Worked on optimizing molecular dynamics simulation models, visualizing research results, testing models, and building a website for users to access the models online.", "负责分子动力学模拟模型优化、科研成果可视化和模型测试，并搭建供用户在线使用模型的网站。")}</p>
                         </article>
